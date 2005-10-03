@@ -4,7 +4,7 @@ use FormValidator::Simple::Exception;
 use FormValidator::Simple::Constants;
 use Business::CreditCard;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my $__creditcard_types = {
     VISA     => 'VISA card',
@@ -56,7 +56,7 @@ FormValidator::Simple::Plugin::CreditCard - credit card number validation
 
 =head1 SYNOPSIS
 
-    use FormValidator qw/CreditCard/;
+    use FormValidator::Simple qw/CreditCard/;
 
     my $q = CGI->new;
     $q->param( number => '5276 4400 6542 1319' );
