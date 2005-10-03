@@ -1,0 +1,6 @@
+Revision history for Perl extension FormValidator::Simple::Plugin::CreditCard.
+
+0.01  Mon Sep 26 00:21:30 2005
+	- original version; created by h2xs 1.23 with options
+		-X -A FormValidator::Simple::Plugin::CreditCard
+
