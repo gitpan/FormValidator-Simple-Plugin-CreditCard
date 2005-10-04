@@ -2,9 +2,9 @@ package FormValidator::Simple::Plugin::CreditCard;
 use strict;
 use FormValidator::Simple::Exception;
 use FormValidator::Simple::Constants;
-use Business::CreditCard;
+require Business::CreditCard;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 my $__creditcard_types = {
     VISA     => 'VISA card',
